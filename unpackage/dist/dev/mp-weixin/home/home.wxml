@@ -1,0 +1,1 @@
+<view class="homeMain"><view class="homeTop"><button data-event-opts="{{[['tap',[['test',['$event']]]]]}}" bindtap="__e">asdasd</button></view><view class="homeMiddle"></view><view class="homeBottom"></view></view>

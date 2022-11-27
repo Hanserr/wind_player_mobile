@@ -1,0 +1,36 @@
+body{
+	background-color: #aec5d8;
+}
+.phone-in,.code-in{
+	height: 70rpx;
+	background-color: #d7f1ff;
+	text-indent: 1em;
+	border: none;
+	color: #7d8eff;
+}
+.phone-in{
+	width: 500rpx;
+	margin: 0 auto;
+	margin-top: 100rpx;
+	border-radius: 7px;
+}
+.code-area{
+	width: 500rpx;
+	height: 70rpx;
+	margin: 0 auto;
+	margin-top: 50rpx;
+}
+.send-code-button{
+	width: 200rpx;
+	height: 70rpx;
+	color: #aec5d8;
+	background-color: #0c4376;
+	display: inline-block;
+	border-radius: 7px;
+	font-size: 15px;
+}	
+.login-button{
+	margin-top: 60rpx;
+	width: 500rpx;
+	height: 70rpx;
+}

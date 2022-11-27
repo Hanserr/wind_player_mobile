@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "home/home",
+    "profile/profile",
+    "findings/findings",
+    "pages/loign/loign"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "风吟音乐",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "home/home",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/_home.png"
+      },
+      {
+        "text": "发现",
+        "pagePath": "findings/findings",
+        "iconPath": "static/finding.png",
+        "selectedIconPath": "static/_finding.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "profile/profile",
+        "iconPath": "static/profile.png",
+        "selectedIconPath": "static/_profile.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

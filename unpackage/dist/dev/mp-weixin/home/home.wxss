@@ -1,0 +1,13 @@
+page{
+	background-color: #2B2B2B;
+}
+.homeMain{
+	width: 750rpx;
+	height: auto;
+}
+.homeTop{
+	width: 750rpx;
+	height: 300px;
+	background-color: antiquewhite;
+}
+
