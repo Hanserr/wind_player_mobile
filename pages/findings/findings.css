@@ -1,3 +1,62 @@
-body{
-	background-color: #2B2B2B;
+.top{
+	height: 40px;
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	position: fixed;
+}
+.menu-area{
+	height: 40px;
+	width: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.menu-icon{
+	width: 20px;
+	height: 20px;
+}
+.search-inp-area{
+	flex: 1;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.fake-search-inp{
+	flex: 1;
+	height: 28px;
+	border-radius: 15px;
+	background-color: #ececec;
+	text-indent: 2em;
+}
+.search-inp-area image{
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	left: 10px;
+}
+.placeholder-area{
+	height: 40px;
+	width: 40px;
+}
+.slide-window-content{
+	height: 100vh;
+	width: 230px;
+	background-color: white;
+	z-index: 100;
+	position: fixed;
+	transition: 0.2s linear;
+}
+.slide-window-shadow{
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	z-index: 99;
+}
+.middle{
+	width: 100vw;
+	height: auto;
+	
 }

@@ -1,8 +1,10 @@
 <template>
 	<view>
+		<tabbar :current="2"></tabbar>
 	</view>
 </template>
 <script>
+	import tabbar from '@/components/tabbar/tabbar.vue'
 	export default {
 		data() {
 			return {

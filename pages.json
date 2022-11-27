@@ -12,8 +12,7 @@
 					}
 				}
 		    }
-		},
-		{
+		},{
 		    "path" : "pages/profile/profile",
 		    "style" :                                                                                    
 		    {
@@ -25,8 +24,7 @@
 					}
 				}
 		    }
-		}
-        ,{
+		},{
 			"path": "pages/event/event",
 			"style": {
 				"enablePullDownRefresh": true,
@@ -37,8 +35,7 @@
 					}
 				}
 			}
-		}
-		,{
+		},{
             "path" : "pages/loign/loign",
             "style" :                                                                                    
             {
@@ -49,30 +46,6 @@
 	"globalStyle": {
 		"navigationStyle": "custom", //去掉顶部导航条
 		"backgroundColor": "#FFFFFF"
-	},
-	"tabBar": {
-		"backgroundColor": "#FFFFFF",
-		"list": [
-			{
-				"text": "发现",
-				"pagePath": "pages/findings/findings",
-				"iconPath": "static/icons/finding.png",
-				"selectedIconPath": "static/icons/_finding.png"
-			},
-			{
-				"text": "我的",
-				"pagePath": "pages/profile/profile",
-				"iconPath": "static/icons/profile.png",
-				"selectedIconPath": "static/icons/_profile.png"
-				
-			},
-			{
-				"text": "关注",
-				"pagePath": "pages/event/event",
-				"iconPath": "static/icons/event.png",
-				"selectedIconPath": "static/icons/_event.png"
-			}
-		]
 	},
 	"uniIdRouter": {}
 }
