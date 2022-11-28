@@ -1,9 +1,13 @@
+.status-bar{
+	width: 100%;
+	height: var(--status-bar-height);
+	background-color: transparent;
+}
 .top{
 	height: 40px;
 	width: 100%;
 	display: flex;
 	flex-wrap: nowrap;
-	position: fixed;
 }
 .menu-area{
 	height: 40px;
@@ -41,10 +45,11 @@
 }
 .slide-window-content{
 	height: 100vh;
-	width: 230px;
+	width: 260px;
 	background-color: white;
 	z-index: 100;
-	position: fixed;
+	position: absolute;
+	top: 0;
 	transition: 0.2s linear;
 }
 .slide-window-shadow{
@@ -58,5 +63,18 @@
 .middle{
 	width: 100vw;
 	height: auto;
-	
+	display: flex;
+	justify-content: center;
+}
+.swiperArea{
+	flex: 1;
+	padding: 10px 20px 10px 20px;
+}
+.bannerSwiper{
+	border-radius: 5px;
+	overflow: hidden
+}
+.bannerItem image{
+	width: 100%;
+	height: 100%;
 }

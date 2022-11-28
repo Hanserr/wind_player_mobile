@@ -35,6 +35,10 @@ const api = {
 	    GET_CAPTCHA:"/captcha/sent",
 	    //验证手机验证码
 	    VERIFY_CAPTCHA:"/captcha/verify",
+		//手机验证码登录
+		LOGIN_WITH_CODE:"/login/cellphone",
+		//刷新登录状态
+		REFRESH_LOGIN_STATUS:"/login/refresh",
 	    //换绑手机
 	    REBIND_PHONE:"/rebind",
 	    //获取搜索结果
