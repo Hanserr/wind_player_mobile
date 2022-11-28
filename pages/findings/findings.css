@@ -1,13 +1,14 @@
 .status-bar{
 	width: 100%;
 	height: var(--status-bar-height);
-	background-color: transparent;
+	background-color: #EBDCE1;
 }
 .top{
 	height: 40px;
 	width: 100%;
 	display: flex;
 	flex-wrap: nowrap;
+	background-color: #EBDCE1;
 }
 .menu-area{
 	height: 40px;
@@ -65,6 +66,8 @@
 	height: auto;
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
+	background-image: linear-gradient(#EBDCE1,#ffffff);
 }
 .swiperArea{
 	flex: 1;
@@ -77,4 +80,96 @@
 .bannerItem image{
 	width: 100%;
 	height: 100%;
+}
+.componentsArea{
+	width: 100%;
+	height: 72px;
+	border-bottom: 1px solid #E6E6E6;
+}
+.componentsContent{
+	height: 55px;
+	width: auto;
+	display: flex;
+	justify-content: space-around;
+}
+.componentItems{
+	width: 55px;
+	height: 55px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	font-size: 10px;
+	color: #817F80;
+}
+.iconWrap{
+	width: 38px;
+	height: 38px;
+	background-color: #FBF3F1;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+}
+.componentItems image{
+	width: 20px;
+	height: 20px;
+	margin-top: 8px;
+}
+.recommendSongListArea{
+	width: 100%;
+	height: 200px;
+}
+.recommendSongListArea-top{
+	width: 100%;
+	height: 50px;
+}
+.recommendSongListArea-top text{
+	color: black;
+	font-weight: bold;
+	margin-left: 15px;
+	margin-top: 14px;
+	display: inline-block;
+}
+.recommendSongListArea-top button{
+	width: 70px;
+	height: 30px;
+	font-size: 13px;
+	border: none;
+	border-radius: 15px;
+	line-height: 30px;
+	display: inline-block;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.recommendSongListArea-top button::after{
+	border: initial;
+}
+.recommendSongListArea-bottom{
+	height: 140px;
+	padding-top: 10px;
+	
+}
+.recommendItem{
+	width: 100px;
+	height: 120px;
+	display: inline-block;
+	margin: 0 10px 0 10px;
+}
+.itemTop image{
+	width: 100px;
+	height: 100px;
+	border-radius: 15px;
+	box-shadow:  0 -2px 1px 0px #f1f1f1;
+}
+.itembuttom{
+	display: flex;
+}
+.itembuttom text{
+	font-size: 13px;
+	width: 100px;
+	height: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-indent: 5px;
+	color: #333333;
 }

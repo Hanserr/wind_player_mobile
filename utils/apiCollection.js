@@ -79,5 +79,7 @@ const api = {
 	    GET_SIMILAR_ARTIST:"/simi/artist",
 	    //新版评论接口
 	    GET_COMMENT_NEW:"/comment/new",
+		//获取推荐歌单
+		GET_RECOMMEND_SONG_LIST:"/personalized"
 }
 export default api
